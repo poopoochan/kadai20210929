@@ -1,0 +1,267 @@
+@charset "UTF-8";
+
+
+html {
+    /*font-size: 80%;*/
+    font-family: "Meiryo UI";
+}  
+
+.wrap {
+    margin:0 auto;
+    width: 90vw;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.header .header_title {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+}
+
+.title {
+    width: 300px;
+}
+
+.phone {
+    width: 200px;
+}
+
+nav {
+    text-align: center;
+    background-color: #c2edf8;
+}
+     
+nav ul {
+    margin: 0px;
+    padding: 10px;
+}
+     
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    width: 15%;    
+}
+     
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    font-weight:  bold;
+}
+     
+nav li:hover{
+    border-bottom: 2px solid #3744ff; 
+}
+
+.main_visual {
+    text-align: center;
+}   
+
+.top_img {
+    width: 50vw;
+    height: 50vh;
+    margin: 30px;
+}   
+
+.contents_title {
+    text-align: center;
+    background-color: #c2edf8;
+    font-size: 20px;
+    margin: 0px;
+    padding: 10px;
+}  
+
+.goods_contents {
+    display: flex;
+    justify-content: space-evenly;
+} 
+
+.goods_contents .goods_box {
+    width: 20%;
+}
+
+.goods_contents .goods_box .goods_text_title {
+    text-align: center;
+    font-size: 20px;
+    font-weight:  bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+} 
+
+.goods_img {
+    width: 100%;
+} 
+
+.goods_contents .goods_box .goods_text {
+    margin-top: 10px;
+    margin-bottom: 30px;
+} 
+
+.pooinfo_contents {
+    display: flex;
+    flex-direction: column;
+} 
+
+.pooinfo_contents .pooinfo_box {
+    display: flex;
+    align-items: center;
+} 
+
+.pooinfo_img {
+    width: 40%;
+    margin: 30px;
+} 
+
+.pooinfo_contents .pooinfo_box .pooinfo_text_box {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.pooinfo_contents .pooinfo_box .pooinfo_text_box .pooinfo_title{
+    text-align: center;
+    font-size: 20px;
+    font-weight:  bold;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.pooinfo_contents .pooinfo_box .pooinfo_text_box .pooinfo_text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pooinfo_contents .pooinfo_box_MOV{
+    display: flex;
+    align-items: center;
+}
+
+.pooinfo_contents .pooinfo_box_MOV .pooinfo_text_box_MOV{
+    margin: 0 auto;
+}
+
+.pooinfo_contents .pooinfo_box_MOV .pooinfo_text_box_MOV .pooinfo_title_MOV{
+    text-align: center;
+    font-size: 20px;
+    font-weight:  bold;
+}
+
+.pooinfo_contents .pooinfo_box_MOV .pooinfo_text_box_MOV .pooinfo_text_MOV{
+    text-align: center;
+    margin: 20px;
+}
+
+.greeting_contents{
+    width: 70vw;
+    margin: 0 auto;
+    word-break: break-word;
+    margin-TOP: 30px;
+    margin-bottom: 30px;
+}
+
+.greeting_img{
+    float: left;
+    width: 25%;
+    margin-right: 20px;
+}
+
+.notification_contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-TOP: 10px;
+    margin-bottom: 10px;
+}
+
+.notification_contents .notification_box{
+    text-align: left;
+}
+
+.notification_contents .notification_box .notification_text{
+    margin: 20px;
+}
+
+.company_contents{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    align-items: center;
+}
+
+.company_contents .company_text_box {
+    display: flex;
+    flex-direction: column;
+  }
+
+ .company_contents .company_text_box .company_title{
+    font-size: 20px;
+    font-weight:  bold;
+    margin-TOP: 10px;
+    margin-bottom: 10px;
+  }
+
+  .company_contents .company_text_box .company_text{
+    margin-TOP: 10px;
+    margin-bottom: 10px;
+  }
+
+  .contact_contents{
+    margin: 30px;
+  }
+
+  .contact_contents .contact_form{
+    width: 55%;
+    margin: 0 auto;
+  }
+
+  .contact_contents .contact_form .form_item,
+  .contact_contents .contact_form .form_input{
+    padding: 10px;
+    background-color: #c2edf8;
+    border: solid #32a1ce;
+    text-align: center;
+  }
+
+  .contact_contents .contact_form .form_item{
+    font-weight:  bold;
+  }
+
+  .contact_contents .btn_area {
+    text-align: center;
+    margin: 20px;
+  }
+
+  .contact_contents .btn_area .submit_btn{
+    width: 100px;
+    height: 40px;
+    background: #c2edf8;
+    font-weight:  bold;
+    border: solid #32a1ce;
+    font-size: 16px;
+  }
+
+  .nav_footer {
+    background-color: #FFFFFF;
+  }
+
+  .nav_footer .menu_list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+
+
+
