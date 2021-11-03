@@ -22,7 +22,7 @@
         <img src="./img/phone.png" alt="電話" class="phone"> 
       </div>
       <!-- メニュー -->
-      <nav>
+      <nav class="nav_menu">
         <ul>
           <li><a href="#goods">グッズ</a></li>
           <li><a href="#pooinfo">ぷー情報</a></li>
@@ -79,13 +79,15 @@
         </div>
         <div class="pooinfo_box_MOV">
           <div class="pooinfo_text_box_MOV">
-            <p class="pooinfo_title_MOV">今週のぷーちゃん動画⇒⇒⇒</p>
+            <p class="pooinfo_title_MOV">今週のぷーちゃん動画</p>
             <p class="pooinfo_text_MOV">ひれを一生懸命動かしている姿が可愛いですね(´｡•ㅅ•｡`)♡</p>
             <p class="pooinfo_text_MOV">あと途中、口をパクパクしている姿も可愛い…</p>
             <p class="pooinfo_text_MOV">ぷーちゃんに癒されちゃってください(笑)</p>
             <p class="pooinfo_text_MOV">※音声に不用品回収車のアナウンスと私の吐息?入っていますが気にしないで下さい…</p>
           </div>
-            <video width="600px" height="340px" src="./img/MOV.mp4" controls style="margin: 30px;"></video>
+          <div class="changestyle_MOV">
+            <video src="./img/MOV.mp4" controls></video>
+          </div>
         </div>
       </div>
     </div>
@@ -95,13 +97,13 @@
       <h1 class="contents_title">ごあいさつ</h1>
       <div class="greeting_contents">
         <img src="./img/greeting.jpg" alt="ごあいさつ" class="greeting_img">ぷーぷー商会のサイトをご覧いただき、ありがとうございます!!<br>
-        ぷーぷー商会代表?件、ぷーちゃんの飼い主の緑福と申します。福ちゃんって呼んでね★<br>
+        ぷーぷー商会代表?兼、ぷーちゃんの飼い主の緑福と申します。福ちゃんって呼んでね★<br>
         ひょんなことからミドリフグを飼うことになった私ですが、(なぜか知人が家に持ってきた)最初は乗り気ではありませんでした。<br>
         まず飼い方が分からない…小さい頃に金魚は飼っていたのですが、そのぐらいの経験しかなく、ちゃんと育てられるか不安でした…<br>
         とりあえずネットで情報を漁り、必要な道具を揃え、試行錯誤しながら餌や水替えを実施していきますと、小さかったぷーちゃんがだんだんと大きくなってきました。うっ嬉しい…<br>
-        さらにぷーちゃんは人懐っこく、私がそそばによると、一生懸命ひれを動かしながら近づいてきます。かっかわいい…<br>
-        更に朝や夕方には餌くれダンス（気になる人は「ミドリフグ　餌くれダンス」で調べてみてね★）を見せて、アピールしてきます。…やっやめて、キュン死にしてまう(笑)<br>
-        そんなこんなでメロメロになってしまった私は、ぷーちゃんの魅力を広めるため、このこの会社を立ち上げました!!<br>
+        更にぷーちゃんは人懐っこく、私がそばによると、一生懸命ひれを動かしながら近づいてきます。かっかわいい…<br>
+        朝や夕方には餌くれダンス（気になる人は「ミドリフグ　餌くれダンス」で調べてみてね★）を見せて、アピールしてきます。…やっやめて、キュン死にしてしまう(笑)<br>
+        そんなこんなでメロメロになってしまった私は、ぷーちゃんの魅力を広めるため、この会社を立ち上げました!!<br>
         至らない点は多々あると思いますが、皆さんのひと時の癒しになれば幸いです。よろしくお願いいたします。       
       </div>
     </div>
@@ -140,15 +142,15 @@
         <table class="contact_form">
           <tr>
             <td class="form_item">お名前</td>
-            <td class="form_input"><input type="text" name="name" id="" size="60"></td>
+            <td class="form_input"><input type="text" name="name" id=""></td>
           </tr>
           <tr>
             <td class="form_item">メールアドレス</td>
-            <td class="form_input"><input type="text" name="address" id="" size="60"></td>
+            <td class="form_input"><input type="text" name="address" id=""></td>
           </tr>
           <tr>
             <td class="form_item">電話番号</td>
-            <td class="form_input"><input type="text" name="telephone" id="" size="60"></td>
+            <td class="form_input"><input type="text" name="telephone" id=""></td>
           </tr>
           <tr>
             <td class="form_item">お問い合わせ内容</td>
@@ -164,8 +166,8 @@
     <!-- フッター -->
     <footer class="footer">
       <nav class="nav_footer">
+        <img src="./img/logo.png" alt="ロゴ" class="logo">
         <ul class="menu_list">
-          <img src="./img/logo.png" alt="ロゴ" class="logo">
           <li><a href="#goods">グッズ</a></li>
           <li><a href="#pooinfo">ぷー情報</a></li>
           <li><a href="#greeting">ごあいさつ</a></li>
@@ -175,6 +177,9 @@
           </ul>
       </nav>
     </footer>
+
+    <!-- コピーライト -->
+    <div class="copyright">© ぷーぷー商会 2021</div>
   </div>
 </body>
 
