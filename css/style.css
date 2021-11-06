@@ -57,6 +57,12 @@ html {
     width: 20rem;
 }
 
+@media screen and (max-width: 599px) {
+    .phone {
+        display: none; 
+    }
+}
+
 nav {
     text-align: center;
     background-color: #c2edf8;
@@ -77,6 +83,12 @@ nav ul li{
     nav ul li {
         width: 100%;
         text-align: left;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    nav ul li:last-child {
+        display: none;
     }
 }
      
@@ -218,7 +230,7 @@ nav li:hover{
 
 @media screen and (max-width: 599px) {
     .pooinfo_contents .pooinfo_box_MOV {
-        display: block;      
+        flex-direction: column-reverse;     
     }
 }
 
@@ -335,16 +347,22 @@ video {
     }
 }
 
+@media screen and (max-width: 599px) {
+    #inquiry {
+        display: none;
+    }
+}
+
 .contact_contents{
     margin: 3rem;
 }
 
-@media screen and (max-width: 599px) {
+/*@media screen and (max-width: 599px) {
     .contact_contents {
         margin-left: 1rem;
         margin-right: 1rem;
     }
-}
+}*/
 
 
 .contact_contents .contact_form{
@@ -352,11 +370,11 @@ video {
     margin: 0 auto;
 }
 
-@media screen and (max-width: 599px) {
+/*@media screen and (max-width: 599px) {
     .contact_contents .contact_form {
         width: 100%;
     }
-}
+}*/
 
 .contact_contents .contact_form .form_item,
 .contact_contents .contact_form .form_input{
